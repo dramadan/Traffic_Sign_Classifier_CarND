@@ -108,10 +108,10 @@ I implemented the mentioned architecture. There was a noticeble improvement over
 * Changing the filter dimensions to accept RGB input instead of greyscale images to make use of color information which increase the classification accuracy.
 * Adding a dropout after the first convolution layer to decrease the effect of over-fitting.
 * Tunning the parameters of learning rate, batch size, epochs count to reduce the gap between the validation and training accuracy. After tunning, the below parameters give the best results:
-* Learning rate of 0.001
-* Batch size of 128
-* Epoch count of 30
-* Keep probability of 0.5
+- Learning rate of 0.001
+- Batch size of 128
+- Epoch count of 30
+- Keep probability of 0.5
 
 The added dropout layer achieved its aim of reducing the effect of over-fitting.
 
