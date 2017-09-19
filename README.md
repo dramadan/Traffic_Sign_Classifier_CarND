@@ -25,10 +25,10 @@ The goals / steps of this project are the following:
 [image8]: ./examples/9.png "Traffic Sign 5"
 
 ## Rubric Points
-###Here I will consider the [rubric points](https://review.udacity.com/#!/rubrics/481/view) individually and describe how I addressed each point in my implementation.  
+### Here I will consider the [rubric points](https://review.udacity.com/#!/rubrics/481/view) individually and describe how I addressed each point in my implementation.  
 
 ---
-###Writeup / README
+### Writeup / README
 
 #### 1. Provide a Writeup / README that includes all the rubric points and how you addressed each one. You can submit your writeup as markdown or pdf. You can use this template as a guide for writing the report. The submission includes the project code.
 
@@ -98,9 +98,9 @@ The code for training the model is located in the cell number 13 of the ipython 
 #### 4. Describe the approach taken for finding a solution and getting the validation set accuracy to be at least 0.93. Include in the discussion the results on the training, validation and test sets and where in the code these were calculated. Your approach may have been an iterative process, in which case, outline the steps you took to get to the final solution and why you chose those steps. Perhaps your solution involved an already well known implementation or architecture. In this case, discuss why you think the architecture is suitable for the current problem.
 
 My final model results were:
-* training set accuracy of 93.7 %
-* validation set accuracy of 99.1 %
-* test set accuracy of 90 %
+* training set accuracy of 93.5 %
+* validation set accuracy of 99.0 %
+* test set accuracy of 95 %
 
 First, I used the LeNet model which described in the lectures preceeding the project after modifying it to accept RGB images as input and 43 classes as output and tuning the other parameters. Unfortunatley this model had some limitations such as overfitting the train data causing poor validation accuracy. Accordingly, I came across different architecture specially "Traffic Sign Recognition using Multi-Scale Convolutional Network" https://github.com/dramadan/Traffic_Sign_Classifier_CarND/blob/master/sermanet-ijcnn-11.pdf
 I implemented the mentioned architecture. There was a noticeble improvement over the LeNet but Overfitting was still an issue. After invistigating and trying possible modifications to improve the accuracy of the sermanet architecture. These modifications include:
