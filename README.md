@@ -131,7 +131,7 @@ The 50 km/h speed limit sign is the image might be difficult to classify by the 
 
 The 50km/h image might be difficult to classify because due to the fact that, unlike the training data set, the '50' digits are not centered within the red circle. This can be an indication of over-fitting the model to only recognize speed limit signs with the digits in the exact center of the red circle.
 
-![alt text][image5]          
+![alt text][image6]          
 ![alt text][image9]
   
 
