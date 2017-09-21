@@ -127,10 +127,10 @@ Here are five German traffic signs that I found on the web:
 
 The 50 km/h speed limit sign is the image might be difficult to classify by the proposed model. We see that the 50 km/h speed sign is the class with the maximum number of training samples in the training set.
 
-![alt text][image9]
+![alt text][image10]
 
 The 50km/h image might be difficult to classify because due to the fact that, unlike the training data set, the '50' digits are not centered within the red circle. This can be an indication of over-fitting the model to only recognize speed limit signs with the digits in the exact center of the red circle.
-![alt text][image5] ![alt text][image10]
+![alt text][image5] ![alt text][image9]
   
 
 #### 2. Discuss the model's predictions on these new traffic signs and compare the results to predicting on the test set. At a minimum, discuss what the predictions were, the accuracy on these new predictions, and compare the accuracy to the accuracy on the test set (OPTIONAL: Discuss the results in more detail as described in the "Stand Out Suggestions" part of the rubric).
